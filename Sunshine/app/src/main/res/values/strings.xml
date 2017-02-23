@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_cloth">ClothActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="set_position" translatable="false">SetPostion</string>
+    <string name="add_clothes" translatable="false">AddClothes</string>
+    <string name="manage_clothes" translatable="false">ManageMyClothes</string>
+
+
+    <string name="title_update_location">記事儲存的位置</string>
+    <string name="message_update_location">更新或清除儲存的位置資訊?</string>
+    <string name="update">更新</string>
+    <string name="clear">清除</string>
+
+    <string name="title_current_location">目前位置</string>
+    <string name="message_current_location">是否儲存目前位置?</string>
+
+    <string name="google_play_service_missing">裝置沒有安裝Google Play服務</string>
+    <string name="exit_message">確定要離開，且儲存當前資料？</string>
+    <string name="str001">Gallery</string>
+</resources>

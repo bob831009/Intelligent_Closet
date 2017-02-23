@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<!--    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/TextView01"
+        android:textSize="20sp"
+        android:text="Top/All In One"
+        />
+-->
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/top"
+        android:layout_gravity="center"
+        />
+    <Gallery xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="10dp"
+        android:id="@+id/gallery01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spacing="16dp"
+        />
+  <!--  <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/TextView02"
+        android:textSize="20sp"
+        android:text="Bottom"
+        />
+    -->
+    <ImageView
+        android:layout_width="91dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/bottom"
+        android:layout_gravity="center"
+        />
+    <Gallery xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="10dp"
+        android:id="@+id/gallery02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spacing="16dp"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/confirmButton"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:layout_gravity="center_horizontal"
+        android:text="Confirm"
+        android:textSize="20sp"/>
+
+</LinearLayout>
